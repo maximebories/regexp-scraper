@@ -9,6 +9,6 @@ To get a lock on node modules:
 
 To run:
 
-   $ node index.js
+	$ node index.js
  
 The example I used here was to find fraud phishing URLs, DO NOT click on any of them unless you know what you are doing.
