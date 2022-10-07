@@ -1,5 +1,5 @@
 # regex-scraper
-Advanced used of Puppeteer to scrape a web engine results for RegExp
+Advanced use of Puppeteer to scrape a web engine results with a RegExp
 
 ##
 
@@ -11,4 +11,4 @@ To run:
 
 	$ node index.js
  
-The example I used here was to find fraud phishing URLs, DO NOT click on any of them unless you know what you are doing.
+The example I used here was to find fraud phishing URLs send through text messages for further investigations, DO NOT click on any of them unless you know what you are doing.
