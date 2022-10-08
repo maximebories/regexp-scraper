@@ -20,7 +20,7 @@ const regexp = /http:\/\/[a-z]{5}\.[a-z]{5}\.[a-z]+/gm;
 		}
 	}
 
-	// Init browsing session & specify we do want to exclude results
+	// Init browsing session & specify we do NOT want to exclude results
 	await page.goto('https://www.google.fr/search?q=' + query + '&filter=0');
 	const navigationPromise = page.waitForNavigation();
 
