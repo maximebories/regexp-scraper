@@ -1,5 +1,5 @@
 # regex-scraper
-Advanced use of Puppeteer to scrape Google web engine results with a RegExp. You have to provide a search query and a regular expression to match against either the Google search results page or the full page content depending on how thorough you want the search to be.
+Advanced use of Puppeteer to scrape Google web engine results against a RegExp. You have to provide a search query and a regular expression to match against either the Google search results page or the full page content depending on how thorough you want the search to be.
 
 ##
 
