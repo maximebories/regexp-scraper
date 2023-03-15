@@ -19,10 +19,10 @@ The example I used here was to find fraud phishing URLs send through text messag
 
 To run the script, use the following command:
 
-	$ node script.js <query> <regexp> <filter>
+	$ node main.ts <query> <regexp> <filter>
 
 Replace <query> with the query you want to use for the search, <regexp> with the regular expression you want to use to match against the page content, and <filter> with 'true' if you want to filter the search results or 'false' if you don't want to filter the results.
 
 For example, to perform a search for the query 'Votre colis a été envoyé. Veuillez le vérifier et le recevoir.' which is a common text phishing in France, disabling filtering Google similar results search, the results and using the regular expression 'http://[a-z]{5}.[a-z]{5}.[a-z]+' that capture all the URLs that are being used in this fishing operation, use the following command:
 
-	$ node script.js 'Votre colis a été envoyé. Veuillez le vérifier et le recevoir.' 'http://[a-z]{5}.[a-z]{5}.[a-z]+' false
+	$ node main.ts 'Votre colis a été envoyé. Veuillez le vérifier et le recevoir.' 'http://[a-z]{5}.[a-z]{5}.[a-z]+' false
