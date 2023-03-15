@@ -1,5 +1,5 @@
-# regex-scraper
-Advanced use of Puppeteer to scrape Google web engine results against a RegExp. You have to provide a search query and a regular expression to match against either the Google search results page or the full page content depending on how thorough you want the search to be.
+# regexp-scraper
+Advanced use of Puppeteer to crawl Google web engine results against a RegExp. You have to provide a search query and a regular expression to match against either the Google search results page or the full page content depending on how thorough you want the search to be.
 
 ##
 
@@ -9,7 +9,7 @@ To get a lock on node modules:
 
 To run:
 
-	$ node index.js
+	$ node main.ts
  
 The example I used here was to find fraud phishing URLs send through text messages for further investigations, DO NOT click on any of them unless you know what you are doing.
 
